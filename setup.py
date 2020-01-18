@@ -1,14 +1,14 @@
-__author__ = 'Lucifer Avada'
+__author__ = 'Paul Severance'
 
 from setuptools import setup
 
 setup(
-    name='sugar-asynctest',
+    name='fire-asynctest',
     version='0.0.1',
-    author='Lucifer Avada',
-    author_email='lucifer.avada@gmail.com',
-    url='https://github.com/sugarush/sugar-asynctest',
-    packages=['sugar_asynctest'],
+    author='Paul Severance',
+    author_email='paul.severance@gmail.com',
+    url='https://github.com/sugarush/fire-asynctest',
+    packages=['fire_asynctest'],
     description='An async testcase for the unittest module.',
     install_requires=[ ]
 )
