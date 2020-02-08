@@ -1,4 +1,4 @@
-from fire_asynctest import AsyncTestCase
+from sugar_asynctest import AsyncTestCase
 
 class TestAsyncTestCaseDefaultLoop(AsyncTestCase):
 
