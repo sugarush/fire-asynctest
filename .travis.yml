@@ -5,10 +5,9 @@ python:
 
 install:
   - pip install coverage codecov
-  - source .venv-activate
 
 script:
-  - coverage run --source "${MODULE}" --module "unittest" discover --verbose "test"
+  - coverage run --source "sugar_asynctest" --module "unittest" discover --verbose "test"
   - coverage report
 
 after_success:
