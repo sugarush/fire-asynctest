@@ -18,6 +18,7 @@ Usage
 
   from sugar_asynctest import AsyncTestCase
 
+  
   class TestSomethingAsync(AsyncTestCase):
 
     async def test_something_async(self):
