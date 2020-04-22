@@ -20,5 +20,5 @@ Usage
 
   class TestSomethingAsync(AsyncTestCase):
 
-    async test_something_async(self):
-      ...
+    async def test_something_async(self):
+      self.assertTrue(True)
